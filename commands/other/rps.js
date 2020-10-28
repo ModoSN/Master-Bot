@@ -26,7 +26,7 @@ module.exports = class RPSCommand extends Command {
 
     const embed = new MessageEmbed()
       .setColor('RANDOM')
-      .setTitle('Rock, Paper, Scissors')
+      .setAuthor('Rock, Paper, Scissors')
       .setDescription(`**${reply}**`);
     message.channel.send(embed);
     return;
